@@ -1,0 +1,21 @@
+{
+  "name": "tronminter-trc20-token",
+  "version": "1.0.0",
+  "description": "TRC-20 token contract deployed by TronMinter on the TRON network, with optional mint, burn, pause, max transaction and transfer fee",
+  "homepage": "https://www.tronminter.com/",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:nile": "node scripts/deploy.js nile",
+    "deploy:mainnet": "node scripts/deploy.js mainnet"
+  },
+  "keywords": ["tron", "trc20", "trc-20", "token", "solidity", "tronweb", "no-code"],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0",
+    "tronweb": "^5.3.2"
+  }
+}
